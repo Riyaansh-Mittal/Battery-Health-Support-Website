@@ -44,7 +44,11 @@ function Privacy() {
           We do not collect your name, email, phone number, or any account identifiers — the App has
           no login or account system.
         </li>
-        <li>We do not collect precise or approximate real-time location data.</li>
+        <li>
+          We do not collect precise real-time location data. (Note: as described in Section 3,
+          our third-party partners may automatically collect or derive approximate location
+          data from your IP address for analytics and advertising purposes.)
+        </li>
         <li>We do not access your contacts, photos, files, camera, or microphone.</li>
         <li>
           We do not transmit battery statistics, device diagnostics, or usage history to any server
@@ -70,10 +74,30 @@ function Privacy() {
 
       <H2>3. Information Collected by Third-Party Advertising and Analytics Partners</H2>
       <P>
-        We use the following third-party SDKs, which operate independently under their own privacy
-        policies and may collect data such as your Advertising ID, IP address, device type, and
-        general usage patterns for the purposes described below:
+        We use third-party software development kits (SDKs) which operate independently under
+        their own privacy policies. To provide advertising, measure app usage, and monitor app
+        performance, these SDKs automatically collect and transmit the following categories of
+        data off your device:
       </P>
+      <UL>
+        <li>
+          <strong className="text-foreground">Approximate Location:</strong> Derived from your IP
+          address to determine general geographic region.
+        </li>
+        <li>
+          <strong className="text-foreground">App Interactions:</strong> How you interact with the
+          App, such as screen views, session duration, and ad engagement.
+        </li>
+        <li>
+          <strong className="text-foreground">Diagnostics:</strong> Performance metrics, crash
+          logs, stack traces, and application health data used to ensure technical stability.
+        </li>
+        <li>
+          <strong className="text-foreground">Device or Other IDs:</strong> Android Advertising ID
+          (GAID), App Set ID, and installation identifiers.
+        </li>
+      </UL>
+      <P>The specific partners we work with include:</P>
       <UL>
         <li>
           <strong className="text-foreground">Google AdMob</strong> — Serving ads (may include
@@ -95,6 +119,14 @@ function Privacy() {
           <strong className="text-foreground">Google Analytics for Firebase</strong> — Aggregate,
           anonymized usage statistics (e.g., screen views, crash reports). May collect device type,
           OS version, anonymized usage events.{" "}
+          <a className="text-primary hover:underline" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+            Privacy policy
+          </a>
+        </li>
+        <li>
+          <strong className="text-foreground">Firebase Cloud Messaging</strong> — Delivering push
+          notifications (e.g., charge alerts). Collects a device registration token used solely to
+          route notifications to your device.{" "}
           <a className="text-primary hover:underline" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
             Privacy policy
           </a>
@@ -183,11 +215,14 @@ function Privacy() {
         privacy policies.
       </P>
 
-      <H2>9. Data Retention</H2>
+      <H2>9. Data Retention and Deletion</H2>
       <P>
         We retain no personal data ourselves. On-device data is retained only as long as the App
-        remains installed and is permanently erased upon uninstallation. Retention of data by
-        third-party partners is governed by their own policies (see Section 3).
+        remains installed and is permanently erased upon uninstallation. Because the App does not
+        use user accounts, there is no centralized account data for us to delete. If you wish to
+        clear the anonymous advertising data collected by our third-party partners, you can reset
+        your device's Advertising ID in your Android settings (see Section 4). Retention of data
+        by third-party partners is governed by their own policies (see Section 3).
       </P>
 
       <H2>10. Security</H2>
