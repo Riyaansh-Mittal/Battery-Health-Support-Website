@@ -45,22 +45,24 @@ function Privacy() {
           no login or account system.
         </li>
         <li>
-          We do not collect precise real-time location data. (Note: as described in Section 3,
-          our third-party partners may automatically collect or derive approximate location
-          data from your IP address for analytics and advertising purposes.)
+          We do not collect precise real-time location data. (Note: as described in Section 3, our
+          third-party partners may automatically collect or derive approximate location data from
+          your IP address for analytics and advertising purposes.)
         </li>
         <li>We do not access your contacts, photos, files, camera, or microphone.</li>
         <li>
           We do not transmit battery statistics, device diagnostics, or usage history to any server
           we control.
         </li>
-        <li>We have no ability to identify you individually from anything the App itself generates.</li>
+        <li>
+          We have no ability to identify you individually from anything the App itself generates.
+        </li>
       </UL>
 
       <H2>2. Information Collected On-Device (Never Transmitted by Us)</H2>
       <P>
-        The App reads the following from your Android operating system, purely to display information
-        back to you inside the App:
+        The App reads the following from your Android operating system, purely to display
+        information back to you inside the App:
       </P>
       <UL>
         <li>Battery percentage, charge status, voltage, current (mA), and temperature</li>
@@ -74,10 +76,14 @@ function Privacy() {
 
       <H2>3. Information Collected by Third-Party Advertising and Analytics Partners</H2>
       <P>
-        We use third-party software development kits (SDKs) which operate independently under
-        their own privacy policies. To provide advertising, measure app usage, and monitor app
-        performance, these SDKs automatically collect and transmit the following categories of
-        data off your device:
+        We use third-party software development kits (SDKs) which operate independently under their
+        own privacy policies. Under the European Union's General Data Protection Regulation (GDPR),
+        our lawful bases for processing this data are <strong>Consent</strong> (for personalized
+        advertising and usage analytics via the user consent prompt) and{" "}
+        <strong>Legitimate Interest</strong> (for essential diagnostics, crash reporting, and core
+        security metrics). To provide advertising, measure app usage, and monitor app performance,
+        these SDKs automatically collect and transmit the following categories of data off your
+        device:
       </P>
       <UL>
         <li>
@@ -89,8 +95,8 @@ function Privacy() {
           App, such as screen views, session duration, and ad engagement.
         </li>
         <li>
-          <strong className="text-foreground">Diagnostics:</strong> Performance metrics, crash
-          logs, stack traces, and application health data used to ensure technical stability.
+          <strong className="text-foreground">Diagnostics:</strong> Performance metrics, crash logs,
+          stack traces, and application health data used to ensure technical stability.
         </li>
         <li>
           <strong className="text-foreground">Device or Other IDs:</strong> Android Advertising ID
@@ -103,7 +109,12 @@ function Privacy() {
           <strong className="text-foreground">Google AdMob</strong> — Serving ads (may include
           personalized ads). May collect Advertising ID, IP address, device info, ad interaction
           data.{" "}
-          <a className="text-primary hover:underline" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+          <a
+            className="text-primary hover:underline"
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Privacy policy
           </a>
         </li>
@@ -111,15 +122,25 @@ function Privacy() {
           <strong className="text-foreground">AppLovin</strong> — Serving ads (may include
           personalized ads). May collect Advertising ID, IP address, device info, ad interaction
           data.{" "}
-          <a className="text-primary hover:underline" href="https://www.applovin.com/privacy/" target="_blank" rel="noreferrer">
+          <a
+            className="text-primary hover:underline"
+            href="https://www.applovin.com/privacy/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Privacy policy
           </a>
         </li>
         <li>
-          <strong className="text-foreground">Google Analytics for Firebase</strong> — Aggregate,
-          anonymized usage statistics (e.g., screen views, crash reports). May collect device type,
-          OS version, anonymized usage events.{" "}
-          <a className="text-primary hover:underline" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+          <strong className="text-foreground">Google Analytics for Firebase</strong> — Aggregate
+          usage statistics (e.g., screen views, crash reports). May collect device type, OS version,
+          and anonymized usage events.{" "}
+          <a
+            className="text-primary hover:underline"
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Privacy policy
           </a>
         </li>
@@ -127,7 +148,12 @@ function Privacy() {
           <strong className="text-foreground">Firebase Cloud Messaging</strong> — Delivering push
           notifications (e.g., charge alerts). Collects a device registration token used solely to
           route notifications to your device.{" "}
-          <a className="text-primary hover:underline" href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+          <a
+            className="text-primary hover:underline"
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Privacy policy
           </a>
         </li>
@@ -146,7 +172,9 @@ function Privacy() {
         Personalization," or by resetting your Advertising ID.
       </P>
       <P>
-        <strong className="text-foreground">AdMob/AppLovin consent (EEA/UK/Switzerland users):</strong>{" "}
+        <strong className="text-foreground">
+          AdMob/AppLovin consent (EEA/UK/Switzerland users):
+        </strong>{" "}
         On first launch, users in these regions are shown a consent prompt (via Google's User
         Messaging Platform, UMP) to accept or reject personalized advertising, in compliance with
         GDPR and the EU-U.S. Data Privacy Framework.
@@ -158,43 +186,46 @@ function Privacy() {
 
       <H2>5. Children's Privacy</H2>
       <P>
-        The App is intended for a general audience and is not directed at children under the age of 13
-        (or the applicable age of digital consent in your country, e.g., 16 in parts of the EU). We do
-        not knowingly collect personal information from children. Because Google AdMob and AppLovin
-        may serve non-personalized ads to all users, we do not enable personalized advertising to any
-        user flagged as under the applicable age of consent, and our app is not registered for Google
-        Play's "Designed for Families" program. If you believe a child has used the App and that a
-        third-party service has collected data in violation of COPPA or similar laws, contact us using
-        the details below and we will assist in addressing the issue with the relevant provider.
+        The App is intended for a general audience and is not directed at children under the age of
+        13 (or the applicable age of digital consent in your country, e.g., 16 in parts of the EU).
+        We do not knowingly collect personal information from children. Because Google AdMob and
+        AppLovin may serve non-personalized ads to all users, we do not enable personalized
+        advertising to any user flagged as under the applicable age of consent, and our app is not
+        registered for Google Play's "Designed for Families" program. If you believe a child has
+        used the App and that a third-party service has collected data in violation of COPPA or
+        similar laws, contact us using the details below and we will assist in addressing the issue
+        with the relevant provider.
       </P>
 
       <H2>6. Your Rights (GDPR — EEA/UK/Switzerland Users)</H2>
       <P>
-        If you are located in the European Economic Area, United Kingdom, or Switzerland, you have the
-        right to:
+        If you are located in the European Economic Area, United Kingdom, or Switzerland, you have
+        the right to:
       </P>
       <UL>
         <li>
-          Access, correct, or request deletion of any data held about you by our third-party partners
-          (contact them directly, or contact us and we will forward your request)
+          Access, correct, or request deletion of any data held about you by our third-party
+          partners (contact them directly, or contact us and we will forward your request)
         </li>
-        <li>Object to or restrict processing based on legitimate interest (e.g., ad personalization)</li>
+        <li>
+          Object to or restrict processing based on legitimate interest (e.g., ad personalization)
+        </li>
         <li>Data portability, where technically feasible</li>
         <li>Lodge a complaint with your local Data Protection Authority</li>
       </UL>
       <P>
         Because we do not operate servers or hold your personal data ourselves, most such requests
-        must be directed to Google (AdMob/Analytics) or AppLovin directly via the links in Section 3.
-        We will assist in good faith with any request sent to us.
+        must be directed to Google (AdMob/Analytics) or AppLovin directly via the links in Section
+        3. We will assist in good faith with any request sent to us.
       </P>
 
       <H2>7. Your Rights (CCPA/CPRA — California Users)</H2>
       <P>
-        California residents have the right to know what personal information is collected, to request
-        deletion, and to opt out of the "sale" or "sharing" of personal information for cross-context
-        behavioral advertising. Because our ad partners may share device/advertising identifiers for
-        personalized ads, this may constitute a "sale" or "sharing" under CCPA/CPRA. You can exercise
-        your opt-out right at any time via:
+        California residents have the right to know what personal information is collected, to
+        request deletion, and to opt out of the "sale" or "sharing" of personal information for
+        cross-context behavioral advertising. Because our ad partners may share device/advertising
+        identifiers for personalized ads, this may constitute a "sale" or "sharing" under CCPA/CPRA.
+        You can exercise your opt-out right at any time via:
       </P>
       <UL>
         <li>The in-app consent/ad settings screen, or</li>
@@ -217,39 +248,55 @@ function Privacy() {
 
       <H2>9. Data Retention and Deletion</H2>
       <P>
-        We retain no personal data ourselves. On-device data is retained only as long as the App
-        remains installed and is permanently erased upon uninstallation. Because the App does not
-        use user accounts, there is no centralized account data for us to delete. If you wish to
-        clear the anonymous advertising data collected by our third-party partners, you can reset
-        your device's Advertising ID in your Android settings (see Section 4). Retention of data
-        by third-party partners is governed by their own policies (see Section 3).
+        We retain no personal data ourselves. On-device battery records and user preferences are
+        retained only as long as the App remains installed and are permanently erased upon
+        uninstallation. Because the App does not use user accounts, there is no centralized account
+        data for us to delete. Data collected by our third-party analytics partners (such as Google
+        Analytics) is retained for a fixed standard period of 2 months before being automatically
+        purged. Persistent advertising identifiers are stored securely by ad networks according to
+        their separate retention limits or until you choose to clear or reset your Advertising ID
+        via your Android settings (see Section 4).
       </P>
 
       <H2>10. Security</H2>
       <P>
         We rely on Android's standard app sandboxing and permission model to protect on-device data.
-        No data transmission to our own servers occurs, which eliminates a major class of data breach
-        risk. However, no method of electronic storage or transmission by third parties is 100%
-        secure, and we cannot guarantee absolute security of information handled by our advertising or
-        analytics partners.
+        No data transmission to our own servers occurs, which eliminates a major class of data
+        breach risk. However, no method of electronic storage or transmission by third parties is
+        100% secure, and we cannot guarantee absolute security of information handled by our
+        advertising or analytics partners.
       </P>
 
       <H2>11. Changes to This Policy</H2>
       <P>
         We may update this Privacy Policy periodically to reflect changes in law, our third-party
         partners, or app functionality. The "Last Updated" date at the top will reflect the most
-        recent revision. Material changes will be announced via an in-app notice. Continued use of the
-        App after changes take effect constitutes your acceptance of the revised policy.
+        recent revision. Material changes will be announced via an in-app notice. Continued use of
+        the App after changes take effect constitutes your acceptance of the revised policy.
       </P>
 
-      <H2>12. Contact Us</H2>
+      <H2>12. Contact Us and Data Controller Identity</H2>
       <P>
-        If you have questions about this Privacy Policy or wish to exercise any of the rights
-        described above, contact us at:
+        For the purposes of the General Data Protection Regulation (GDPR) and other applicable
+        privacy frameworks, the Data Controller for this application is Riyaansh Mittal. If you have
+        questions about this Privacy Policy, wish to inquire about third-party data handlers, or
+        wish to exercise any of your data rights, you can reach out via the contact information
+        below:
       </P>
-      <P>
-        Email: <span className="text-foreground">batteryhealthsupport@nettoklar.de</span>
-      </P>
+      <UL>
+        <li>
+          <strong className="text-foreground">Developer/Data Controller Name:</strong> Riyaansh
+          Mittal
+        </li>
+        <li>
+          <strong className="text-foreground">Email Address:</strong>{" "}
+          <span className="text-foreground">batteryhealthsupport@nettoklar.de</span>
+        </li>
+        <li>
+          <strong className="text-foreground">Mailing Address:</strong> 3, Naval Vihar, Baghpat
+          Road, Meerut, Uttar Pradesh, India - 250001
+        </li>
+      </UL>
     </LegalPage>
   );
 }
